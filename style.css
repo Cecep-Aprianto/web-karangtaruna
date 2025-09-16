@@ -71,7 +71,7 @@ body { font-family: 'Arial', sans-serif; line-height: 1.6; }
   text-align: center;
   padding: 120px 20px;
 }
-.hero h1 { font-size: 2rem; margin-bottom: 1rem; color : green; margin-top : -50px; }
+.hero h1 { font-size: 2rem; margin-bottom: 1rem; }
 
 .bio {
   margin-top:  -20px ;
