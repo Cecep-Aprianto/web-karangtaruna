@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karang Taruna Desa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4f8f8a0a4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header class="header">
+    <nav class="container nav">
+      <div class="logo"><i class="fa-solid fa-people-group"></i> Karang Taruna</div>
+
+      <!-- Tombol Hamburger (Mobile) -->
+      <div class="mobile-menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Menu -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Tentang</a></li>
+        <li><a href="#programs" class="nav-link">Kegiatan</a></li>
+        <li><a href="#team" class="nav-link">Pengurus</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Selamat Datang di Website Karang Taruna</h1>
+      <p class="bio">Bersama membangun desa dengan semangat pemuda.</p>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title">Tentang Kami</h2>
+      <p>Karang Taruna adalah wadah pengembangan generasi muda, untuk mengembangkan potensi dan semangat kebersamaan di desa.</p>
+    </div>
+  </section>
+
+  <!-- Program/Kegiatan -->
+  <section id="programs" class="section">
+    <div class="container">
+      <h2 class="section-title">Kegiatan karangtaruna</h2>
+      <div class="programs-grid" id="programs-list"></div>
+    </div>
+  </section>
+
+  <!-- Pengurus -->
+  <section id="team" class="section">
+    <div class="container">
+      <h2 class="section-title">Pengurus</h2>
+      <div class="team-grid" id="team-list"></div>
+    </div>
+  </section>
+
+  <!-- Hubungi Kami -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title">Hubungi Kami</h2>
+     <form action="https://formspree.io/f/xkgvlnya" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" required placeholder="Masukkan email Anda">
+        </div>
+        <div class="form-group">
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tulis pesan Anda"></textarea>
+        </div>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fa-solid fa-location-dot"></i> Alamat: Dusun Wonerejo,Air Sebayur,Bengkulu Utara</p>
+        <p><i class="fa-solid fa-envelope"></i> Email: c.aprianto.id@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> HP: 0085789032079</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Karang Taruna Desa. Semua Hak Dilindungi (c.aprian.2025).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "wildan",
+    "role": "Ketua",
+    "photo": "assets/images/ketua.jpg"
+  },
+  {
+    "name": "sugeng",
+    "role": "Wakil Ketua",
+    "photo": "assets/images/wakil.jpg"
+  },
+  {
+    "name": "Ardi",
+    "role": "Sekretaris",
+    "photo": "assets/images/sekretaris.jpg"
+  },
+  {
+    "name": "nopal",
+    "role": "Bendahara",
+    "photo": "assets/images/bendahara.jpg"
+  }
+]

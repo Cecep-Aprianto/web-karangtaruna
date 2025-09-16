@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Kegiatan 17 Agustus.HUT,80",
+    "description": "Kegiatan  sepak bola dan voli menyabut  HUT RI ke 80-2025.",
+    "images": [
+      "assets/images/olahraga1.jpg",
+      "assets/images/olahraga2.jpg",
+      "assets/images/olahraga3.jpg",
+      "assets/images/olahraga4.jpg",
+      "assets/images/olahraga5.jpg",
+      "assets/images/olahraga6.jpg",
+      "assets/images/olahraga7.jpg",
+      "assets/images/olahraga8.jpg",
+      "assets/images/olahraga9.jpg",
+      "assets/images/olahraga10.jpg",
+      "assets/images/olahraga11.jpg",
+      "assets/images/olahraga12.jpg",
+      "assets/images/olahraga13.jpg",
+      "assets/images/olahraga14.jpg",
+      "assets/images/olahraga15.jpg",
+      "assets/images/olahraga16.jpg",
+      "assets/images/olahraga17.jpg"
+    ]
+  },
+  {
+    "title": "Kegiatan Seni",
+    "description": "Kesenian menyabut acara 17 Agustus HUT RI ke 80-2025.",
+    "images": [
+      "assets/images/seni1.jpg",
+      "assets/images/seni2.jpg",
+      "assets/images/seni3.jpg",
+      "assets/images/seni4.jpg",
+      "assets/images/seni5.jpg",
+      "assets/images/seni6.jpg",
+      "assets/images/seni7.jpg"
+    ]
+  }
+]
